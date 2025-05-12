@@ -1,0 +1,71 @@
+body { background: #fff; }
+.main-nav {
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    color: #fff;
+}
+.main-nav .navbar-brand, .main-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+.main-nav .nav-link.active, .main-nav .nav-link:hover {
+    color: #d32f2f !important;
+    background: #fff2f2;
+    border-radius: 0.5rem;
+}
+.welcome-banner {
+    background: linear-gradient(90deg, #ff5e62cc, #ff9966cc), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover;
+    color: #fff;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(255,94,98,0.1);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.card-quick {
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(255,94,98,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 1rem;
+}
+.card-quick:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(255,94,98,0.18);
+}
+.announcement-tag {
+    font-size: 0.8em;
+    border-radius: 1em;
+    padding: 0.2em 0.8em;
+}
+.urgent { background: #d32f2f; color: #fff; }
+.important { background: #ffa726; color: #fff; }
+.normal { background: #81c784; color: #fff; }
+.profile-box {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+.profile-box img {
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+.footer {
+    background: #f8f9fa;
+    color: #888;
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    font-size: 0.95rem;
+}
+@media (max-width: 767.98px) {
+    .welcome-banner {
+        padding: 1.2rem 0.5rem;
+        font-size: 1rem;
+    }
+    .card-quick {
+        padding: 1.2rem 0.5rem;
+    }
+}
